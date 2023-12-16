@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600;700;800&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #1d002c;
+    color: azure;
+}
+
+header{
+    position: absolute;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    padding: 30px 100px;
+    width: 100%;
+    align-items: center;
+    z-index: 1001;
+}
+.navigation a{
+    text-decoration: none;
+    color: azure;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 12px;
+    border: 2px solid #12f7ff ;
+    border-radius: 4px;
+    transition: all.3s ease;
+    margin-left: 5px;
+
+    
+}
+
+ .navigation a:hover
+ {
+    background-color: #12f7ff;
+    box-shadow: 0 0 1rem #12f7ff;
+    color:  #1d002c;
+}
+
+.logo{
+   font-size: 30px;
+   text-decoration: none;
+  
+
+}
+.logo:hover{
+    color: #12f7ff;
+    
+    }
+.image{
+    width: 100%;
+}    
+
+::-webkit-scrollbar{
+    height: .1rem;
+    width: .5rem;
+
+}
+::-webkit-scrollbar-track{
+   background-color: #12f7ff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0e025688;
+    border-radius: 5rem;
+}
+section{
+    min-height: 100vh;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    position: relative;
+}
+.home img{
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+}
+ #text{
+  position: absolute;
+  font-size: 2.5rem;
+  top: 80%;
+  left: 4%;
+  text-shadow: 0 10px 4px rgba(0,0,0,0.85);
+}
+#moon{
+    mix-blend-mode: screen;
+}
+
+.about{
+    z-index: 1000;
+    position: relative;
+    margin-bottom: 9rem;
+}
+
+.about img{
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 1000;
+}
+.image-water{
+    width: 100%;
+    position: absolute;
+    top: -95;
+
+}
+.info{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 50%;
+    z-index: 1003;
+    background: #1d002c;
+}
+.info h2{
+    font-size: 2.5rem;
+
+}
+.info p{
+    margin-bottom: 2rem;
+    margin-top: .8rem;
+    font-size: 1rem;
+    
+}
+.btn {
+    text-decoration: none;
+    color: #1d002c;
+    font-weight: 600;
+    font-size: 18px;
+    padding: .5rem 1rem;
+    border: 2px solid #12f7ff ;
+    border-radius: 25px;
+    transition: all.3s ease;
+    background:#12f7ff;
+    
+
+}
+.btn:hover{
+    background-color:#1d002c;
+    box-shadow: 0 0 1rem #12f7ff;
+    color:#12f7ff;
+
+}
+.card img {
+   height: 180px;
+   width: 180px;
+   filter: drop-shadow(0 0 0.5rem #12f7ff);
+   margin-top: -4rem;
+}
+.products{
+    background: #1d002c;
+    padding: 3rem 10%;
+}
+
+.products h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.product-card{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 15px;
+  
+}
+ .card{
+   border:  2px solid #12f7ff;
+   padding: 1rem;
+   border-radius: 25px;
+   text-align: center;
+   z-index: 999;
+   transition: all .4s ease;
+   display: block;
+ 
+
+   
+   
+} 
+
+.card:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+}
+.button{
+    text-decoration: none;
+    color: #1d002c;
+    font-weight: 600;
+    font-size: 18px;
+    padding: .5rem 1rem;
+    border: 2px solid #12f7ff ;
+    border-radius: 25px;
+    transition: all.3s ease;
+    background:#12f7ff;
+    
+  
+}
+
+.button:hover{
+    background-color:#1d002c;
+    box-shadow: 0 0 1rem #12f7ff;
+    color:#12f7ff;
+}
+.shop{
+    margin-top: 18px;
+}
+.name p {
+    color: rgb(4, 132, 94);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#desert-moon{
+    mix-blend-mode: screen;
+}
